@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
+  
 
-<video width="640" height="480" controls="controls">
-  <source src="https://drive.google.com/file/d/1JNDIAIFNgxPWx4s3vK0KCHNfeDAcQrkJ/preview" type="video/webm">
-  <source src="https://drive.google.com/file/d/1JNDIAIFNgxPWx4s3vK0KCHNfeDAcQrkJ/preview" type="video/mp4">
+<video id="bgVideo" preload="true" autoplay loop muted class="hidden-xs hidden-sm">
+    <!-- Safari -->
+    <source src="https://drive.google.com/uc?export=download&id=1JNDIAIFNgxPWx4s3vK0KCHNfeDAcQrkJ" type='video/mp4'/>
+    <!-- Chrome and FF -->
+    <source src="https://drive.google.com/uc?export=download&id=1JNDIAIFNgxPWx4s3vK0KCHNfeDAcQrkJ" type='video/webm'/>
 </video>
 
 <iframe src="https://drive.google.com/file/d/1JNDIAIFNgxPWx4s3vK0KCHNfeDAcQrkJ/preview" 
