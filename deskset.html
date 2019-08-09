@@ -25,8 +25,8 @@
   ul.bare { list-style-type: none; padding: 0; }
   ol > li { margin-bottom: 1.25em; }
   img#header { border: 3px solid #800000; max-height: 99%; max-width: 99%; }
-  #info { float: left; margin-right: 0; text-align: right; margin-top: 12px;
-    padding: 0; display: block; max-height: 99%; max-width: 99%; border: 3px solid #800000 }
+  #info { margin-right: 0; text-align: right; margin-top: 12px;
+    padding: 0; display: block; max-height: 99%; max-width: 99%; border: 3px solid #800000; background-color: black; }
    #info2 { float: right; margin-right: 0; text-align: left; margin-top: 0px;
     padding: 0; display: block; width: 50%; padding-left: 3px; padding-right: 3px; }
   #image { float: right; margin-right: 0; font-family: Georgia, serif; font-size: 11px;
@@ -52,29 +52,31 @@
   #boldaccordion:hover {font-weight: bold; margin-bottom: -2px; color: #d98cb3}
   #bold {font-weight: bold; margin-bottom: -2px; }
  .due { color: #ff0000; font-weight: bold  }
+  #below {float: }
 </style>
 </head>
 <body>
 
 
-<br>
+<div>
+Dropbox src: <br>
 
 <video id="info" width="960" height="408" controls="controls">
 
     <source src="https://www.dropbox.com/s/1p89qvdg8py52o9/ENGL225n.mp4?raw=1" type="video/mp4">
 
     <source src="https://www.dropbox.com/s/1p89qvdg8py52o9/ENGL225n.mp4?raw=1" type="video/webm">
-</video>
+</video></div>
+ <br>
+<div>
+<br>
+Google Drive src:<br>
 
+<!-- <video id="info" width="960" height="408" controls>
+    <source src="https://drive.google.com/uc?export=download&id=1iLpXZ5Yi1lVh-gxa9ca8oNt-mc0I2P49" type='video/mp4'/>
+    <source src="https://drive.google.com/1iLpXZ5Yi1lVh-gxa9ca8oNt-mc0I2P49" type='video/webm'/> -->
 
-  <!-- Google
-<video width="640" height="480" controls>
-
-    <source src="https://drive.google.com/uc?export=download&id=1JNDIAIFNgxPWx4s3vK0KCHNfeDAcQrkJ" type='video/mp4'/>
-
-    <source src="https://drive.google.com/uc?export=download&id=1JNDIAIFNgxPWx4s3vK0KCHNfeDAcQrkJ" type='video/webm'/>
-</video> -->
-
+<iframe id="info" src="https://drive.google.com/file/d/1iLpXZ5Yi1lVh-gxa9ca8oNt-mc0I2P49/preview" width="960" height="408"></iframe>
 
 </body>
 </html>
